@@ -40,6 +40,7 @@ dependencies:
   - bottleneck=1.2.1=py36hbd380ad_0
   - bzip2=1.0.6=h1de35cc_5
   - ca-certificates=2018.03.07=0
+  - cairo=1.14.12=hc4e6be7_4
   - certifi=2018.4.16=py36_0
   - cffi=1.11.5=py36h342bebf_0
   - chardet=3.0.4=py36h96c241c_1
@@ -64,10 +65,12 @@ dependencies:
   - et_xmlfile=1.0.1=py36h1315bdc_0
   - expat=2.2.5=hb8e80ba_0
   - fastcache=1.0.2=py36h1de35cc_2
+  - ffmpeg=3.4=h8a2ae75_0
   - filelock=3.0.4=py36_0
   - flask=1.0.2=py36_1
   - flask-cors=3.0.4=py36_0
-  - freetype=2.8=h12048fb_1
+  - fontconfig=2.13.0=h5d5b041_1
+  - freetype=2.9.1=hb4e5f40_0
   - get_terminal_size=1.0.0=h7520d66_0
   - gettext=0.19.8.1=h15daf44_3
   - gevent=1.3.0=py36h1de35cc_0
@@ -75,9 +78,11 @@ dependencies:
   - glob2=0.6=py36h94c9186_0
   - gmp=6.1.2=hb37e062_1
   - gmpy2=2.0.8=py36hf9c35bd_2
+  - graphite2=1.3.11=h2098e52_2
   - greenlet=0.4.13=py36h1de35cc_0
   - grpcio=1.12.1=py36hd9629dc_0
   - h5py=2.7.1=py36ha8ecd60_2
+  - harfbuzz=1.8.4=hb8d4a28_0
   - hdf5=1.10.2=hfa1e0ec_1
   - heapdict=1.0.0=py36_2
   - icu=58.2=h4b95b61_1
@@ -91,6 +96,7 @@ dependencies:
   - ipywidgets=7.2.1=py36_0
   - isort=4.3.4=py36_0
   - itsdangerous=0.24=py36h49fbb8d_1
+  - jasper=2.0.14=h636a363_1
   - jbig=2.1=h4d881f8_0
   - jdcal=1.4=py36_0
   - jedi=0.12.0=py36_1
@@ -113,10 +119,13 @@ dependencies:
   - libffi=3.2.1=h475c297_4
   - libgfortran=3.0.1=h93005f0_2
   - libiconv=1.15=hdd342a3_7
+  - libopencv=3.4.1=h14a57ad_3
+  - libopus=1.2.1=h169cedb_0
   - libpng=1.6.34=he12f830_0
   - libsodium=1.0.16=h3efe00b_0
   - libssh2=1.8.0=h322a93b_4
   - libtiff=4.0.9=hcb84e12_1
+  - libvpx=1.7.0=h378b8a2_0
   - libxml2=2.9.8=hab757c2_1
   - libxslt=1.1.32=hb819dd2_0
   - llvmlite=0.23.1=py36hc454e04_0
@@ -124,7 +133,7 @@ dependencies:
   - lxml=4.2.1=py36h7166777_0
   - lzo=2.10=h362108e_2
   - markupsafe=1.0=py36h3a1e703_1
-  - matplotlib=2.2.2=py36ha7267d0_0
+  - matplotlib=2.2.2=py36hbf02d85_2
   - mccabe=0.6.1=py36hdaeb55d_0
   - mistune=0.8.3=py36h1de35cc_1
   - mkl=2018.0.2=1
@@ -151,8 +160,9 @@ dependencies:
   - numpydoc=0.8.0=py36_0
   - odo=0.5.1=py36hc1af34a_0
   - olefile=0.45.1=py36_0
+  - opencv=3.4.1=py36h6fd60c2_3
   - openpyxl=2.5.3=py36_0
-  - openssl=1.0.2o=h26aff7b_0
+  - openssl=1.0.2o=h1de35cc_1
   - packaging=17.1=py36_0
   - pandas=0.23.0=py36h1702cab_0
   - pandoc=1.19.2.1=ha5e8f32_1
@@ -166,8 +176,9 @@ dependencies:
   - pep8=1.7.1=py36_0
   - pexpect=4.5.0=py36_0
   - pickleshare=0.7.4=py36hf512f8e_0
-  - pillow=5.1.0=py36hfcce615_0
+  - pillow=5.2.0=py36hb68e598_0
   - pip=10.0.1=py36_0
+  - pixman=0.34.0=hca0a616_3
   - pkginfo=1.4.2=py36_1
   - pluggy=0.6.0=py36hb1d0581_0
   - ply=3.11=py36_0
@@ -175,6 +186,7 @@ dependencies:
   - psutil=5.4.5=py36h1de35cc_0
   - ptyprocess=0.5.2=py36he6521c3_0
   - py=1.5.3=py36_0
+  - py-opencv=3.4.1=py36h4b7e113_3
   - pycodestyle=2.4.0=py36_0
   - pycosat=0.6.3=py36hee92d8f_0
   - pycparser=2.18=py36h724b2fc_1
@@ -238,6 +250,7 @@ dependencies:
   - tk=8.6.7=h35a86e2_3
   - toolz=0.9.0=py36_0
   - tornado=5.0.2=py36_0
+  - tqdm=4.24.0=py36_0
   - traitlets=4.3.2=py36h65bd3ce_0
   - typing=3.6.4=py36_0
   - unicodecsv=0.14.1=py36he531d66_0
@@ -259,4 +272,3 @@ dependencies:
   - zict=0.1.3=py36h71da714_0
   - zlib=1.2.11=hf3cbc9b_2
 prefix: /anaconda2/envs/py36
-
